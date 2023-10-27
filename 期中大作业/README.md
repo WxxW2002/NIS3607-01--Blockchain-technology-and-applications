@@ -1,7 +1,8 @@
 # 期中大作业
 
 ## 作业要求
-- 利用(Python\Go\Rust)等语言实现一个PoW的仿真程序，模拟一定数量的节点生成区块链的状态。
+
+- 利用(Python\Go\Rust)等语言实现一个 PoW 的仿真程序，模拟一定数量的节点生成区块链的状态。
 
   - 设置参数包括：节点数量、每个轮次出块的成功率
   - 测量区块链的增长速度
@@ -13,9 +14,11 @@
 ## 项目结构
 
 - `document`：项目文档
+  - `report.pdf`：实验报告
 - `results`：实验结果
-  - `xxx.npy`：PoW模拟数据
+  - `xxx.npy`：PoW 模拟数据
+  - `xxx.png`：仿真结果截图
 - `utils`：工具包
 - `forking_attack.py`：分叉攻击
 - `selfish_mining.py`：自私挖矿
-- `pow_simulate.py`：PoW仿真
+- `pow_simulate.py`：PoW 仿真
