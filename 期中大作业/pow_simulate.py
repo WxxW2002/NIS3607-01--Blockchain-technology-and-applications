@@ -77,5 +77,4 @@ if __name__ == "__main__":
             progress_bar.set_description(f"Max Valid Chain Length: {length}, Chain Growth Rate: {(length - 1) / (round_num + 1)}")
 
         chain_length_per_round = np.array(chain_length_per_round)
-        np.save(f"./results/chain_gen_{block_gen_rate}.npy", chain_length_per_round)
         print(f"Block Generation Rate: {block_gen_rate}, Chain Growth Rate: {(length - 1) / ROUNDS}")
